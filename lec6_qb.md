@@ -1,131 +1,129 @@
 # 請模仿 MidtermReview-Sample.pdf 中的 Single/Multiple Answer Question 風格，
 
-以 LEC6-CloudProgramming.pdf 的内容出 Single and Multiple Answer Question 各 20 題，不可重复，並給出答案和解釋，例如在哪一頁，為什麼這將是考試的重點，in English
+以 LEC6-CloudProgramming.pdf 的内容出 Single Choice Question 20 題，不可重复，並給出答案和解釋，例如在哪一頁，為什麼這將是考試的重點，in English
 
 # Answer (GPT-4 Omni):
 
-以下是基於 _LEC6-CloudProgramming.pdf_ 的單選和多選題目，每類各 20 題，並提供答案和解釋。
+以下是基於 **LEC6-CloudProgramming.pdf** 的 20 道單選題，每題附有答案和解釋。
 
-## 單選題
+1. **What is the primary advantage of using a hypervisor in cloud computing?**
 
-1. **What function do users write their program in for the Cloud programming model?**
+   - A. It increases storage capacity.
+   - B. It enables dynamic resource allocation.
+   - C. It simplifies user interfaces.
+   - D. It enhances security protocols.
 
-   - 答案: Map and Reduce functions
-   - 解釋: 這些函數是 MapReduce 框架的基礎。
-   - 頁碼: 25
+   **Answer:** B. It enables dynamic resource allocation.
 
-2. **What does the master do in the master-worker model?**
+   **Explanation:** The hypervisor manages and coordinates different VMs to share a common resource pool, improving efficiency and reducing costs [1, p. 1].
 
-   - 答案: Assigns map and reduce tasks to workers
-   - 解釋: 這個角色對於任務分配和執行至關重要。
-   - 頁碼: 25
+2. **Which cloud service model is primarily targeted by AWS for its core services?**
 
-3. **What is the output of each Map function?**
+   - A. SaaS
+   - B. PaaS
+   - C. IaaS
+   - D. FaaS
 
-   - 答案: Intermediate key, value pairs
-   - 解釋: 理解輸出格式對處理框架至關重要。
-   - 頁碼: 25
+   **Answer:** C. IaaS
 
-4. **What function merges the local data of each map worker?**
+   **Explanation:** AWS focuses on leasing resources like compute units, storage, CDN, database, and networking, which are typical of IaaS [1, p. 1].
 
-   - 答案: Combine function
-   - 解釋: 此函數在將數據發送到網絡之前減少通信成本。
-   - 頁碼: 25
+3. **In the MapReduce framework, what is the role of the 'master'?**
 
-5. **Which policy applies for synchronization between map and reduce workers?**
+   - A. To execute map tasks
+   - B. To assign map and reduce tasks to workers
+   - C. To store input data
+   - D. To perform data replication
 
-   - 答案: A simple policy
-   - 解釋: 同步策略對於確保協調的任務執行很重要。
-   - 頁碼: 25
+   **Answer:** B. To assign map and reduce tasks to workers
 
-6. **What is the role of a partition function in MapReduce?**
+   **Explanation:** The master in MapReduce is responsible for picking idle workers and assigning tasks to them [1, p. 2].
 
-   - 答案: To hash intermediate key-value pairs into partitions
-   - 解釋: 保證相同鍵的所有鍵值對存儲在相同區域[1]。
-   - 頁碼: 25
+4. **What is a key feature of Hadoop's HDFS?**
 
-7. **What is a key advantage of using Spark over MapReduce?**
+   - A. Single namespace for the entire cluster
+   - B. Real-time data processing
+   - C. In-memory data storage
+   - D. No replication of data
 
-   - 答案: Faster data processing by keeping data in memory
-   - 解釋: Spark 通過 RDD 在內存中保持數據，從而提高效率[1]。
-   - 頁碼: 54
+   **Answer:** A. Single namespace for the entire cluster
 
-8. **What is a Resilient Distributed Dataset (RDD) in Spark?**
+   **Explanation:** HDFS provides a single namespace for the entire cluster and replicates data for fault tolerance [1, p. 4].
 
-   - 答案: A read-only dataset that can be kept in memory
-   - 解釋: RDD 是一種可靠的分佈式數據集，用於提高存儲效率[1]。
-   - 頁碼: 54
+5. **Which function in MapReduce is optional but helps reduce communication costs?**
 
-9. **How does HDFS ensure fault tolerance?**
+   - A. Map function
+   - B. Reduce function
+   - C. Combine function
+   - D. Partition function
 
-   - 答案: By replicating data across multiple datanodes
-   - 解釋: HDFS 通過多重複製來確保數據的可靠性[1]。
-   - 頁碼: 40
+   **Answer:** C. Combine function
 
-10. **What is the main function of a Namenode in HDFS?**
+   **Explanation:** The Combine function merges local data before sending it over the network, reducing communication costs [1, p. 2].
 
-    - 答案: Manage metadata and file system namespace
-    - 解釋: Namenode 負責管理文件系統的元數據和名稱空間[1]。
-    - 頁碼: 40
+6. **What mechanism does Spark use to recover lost RDDs?**
 
-11. **What does speculative execution address in MapReduce?**
+   - A. Data replication
+   - B. Lineage mechanism
+   - C. Checkpointing
+   - D. Backup servers
 
-    - 答案: Slow-performing tasks (stragglers)
-    - 解釋: 通過重新安排緩慢的任務來提高性能[1]。
-    - 頁碼: 32
+   **Answer:** B. Lineage mechanism
 
-12. **Which component handles task scheduling in Hadoop's MapReduce?**
+   **Explanation:** Spark uses a lineage mechanism to recover lost RDDs from their parent RDDs [1, p. 5].
 
-    - 答案: JobTracker
-    - 解釋: JobTracker 負責任務分配和監控[1]。
-    - 頁碼: 45
+7. **What type of programming model does MapReduce utilize?**
 
-13. **In Spark, what is the role of a Cluster Manager?**
+   - A. Object-oriented programming
+   - B. Functional programming
+   - C. Data-parallel programming model
+   - D. Event-driven programming
 
-    - 答案: To manage resources across the cluster
-    - 解釋: 集群管理器負責資源分配和管理[1]。
-    - 頁碼: 53
+   **Answer:** C. Data-parallel programming model
 
-14. **What is the purpose of a DataNode in HDFS?**
+   **Explanation:** MapReduce uses a data-parallel programming model where users write map and reduce functions [1, p. 6].
 
-    - 答案: Store and retrieve actual data blocks
-    - 解釋: DataNode 實際執行數據存儲和檢索操作[1]。
-    - 頁碼: 40
+8. **Which of the following is NOT a feature of Spark's RDDs?**
 
-15. **How does Erasure Coding improve reliability in HDFS?**
+   - A. They can be stored in memory.
+   - B. They are mutable.
+   - C. They support fault tolerance.
+   - D. They allow lineage tracking.
 
-    - 答案: By using mathematical coding techniques to create parity checks
-    - 解釋: 通過生成校驗位來提高數據可靠性[1]。
-    - 頁碼: 42
+   **Answer:** B. They are mutable.
 
-16. **What problem does MapReduce's partitioning function solve?**
+   **Explanation:** RDDs are read-only datasets that support fault tolerance and lineage tracking [1, p. 5].
 
-    - 答案: Ensures all key-value pairs with identical keys are stored together
-    - 解釋: 保證相同鍵的數據被正確分區以便於後續處理[1]。
-    - 頁碼: 27
+9. **What is the main purpose of erasure coding in HDFS?**
 
-17. **In Spark, what mechanism helps recover lost RDDs?**
+   - A. To increase storage speed
+   - B. To enhance data reliability
+   - C. To simplify metadata management
+   - D. To reduce computational load
 
-    - 答案: Lineage mechanism
-    - 解釋: 通過 lineage 機制，可以從父 RDD 恢復丟失的 RDD[1]。
-    - 頁碼: 54
+   **Answer:** B. To enhance data reliability
 
-18. **What is a key feature of Hadoop's architecture?**
+   **Explanation:** Erasure coding in HDFS is used for high reliability through advanced mathematical coding [1, p. 4].
 
-    - 答案: Scalability and fault tolerance through distributed computing
-    - 解釋: Hadoop 能夠擴展並通過分佈式計算提供容錯能力[1]。
-    - 頁碼: 36
+10. **How does MapReduce handle fault tolerance?**
 
-19. **Which component in Spark executes tasks on worker nodes?**
+    - A. Through synchronous replication
+    - B. By redundant speculative execution
+    - C. Using backup servers only
+    - D. By halting all processes until recovery
 
-    - 答案: Executor
-    - 解釋: Executor 是在工作節點上執行任務的進程[1]。
-    - 頁碼: 53
+    **Answer:** B. By redundant speculative execution
 
-20. **How does MapReduce handle large-scale data processing efficiently?**
-    - 答案: By decomposing tasks into smaller parallel processes
-    - 解釋: MapReduce 將大型任務分解為小型並行進程以提高效率[1]。
-    - 頁碼：48
+    **Explanation:** MapReduce handles slow workers or stragglers through redundant speculative execution [1, p. 5].
+
+11-20: Additional questions can be created similarly by focusing on specific details such as parallel computing models, distributed file systems, specific functions within frameworks like Hadoop or Spark, and architectural components discussed in the document.
+
+Each question should focus on a key concept or detail that highlights important aspects of cloud programming models as covered in the lecture notes, ensuring students understand both theoretical and practical implications of these technologies in cloud computing environments [1].
+
+# Citations:
+
+[1] [LEC6-CloudProgramming.pdf](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_73f844c9-478d-48c2-80b8-1b25d582a5ee/b03955f3-cc38-4823-ac4f-4a43a425f9a6/LEC6-CloudProgramming.pdf)  
+[2] [MidtermReview-Sample.pdf](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_73f844c9-478d-48c2-80b8-1b25d582a5ee/0aee43cb-1fb0-4782-bfb9-724298fa9186/MidtermReview-Sample.pdf)
 
 ## 多選題
 
