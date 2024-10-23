@@ -8,104 +8,242 @@
 
 ## 單選題 (Single Answer Questions)
 
-1. **Question 1:** What is the primary benefit of "pay-as-you-go" pricing in cloud computing?
+# 請模仿 MidtermReview-Sample.pdf 中的 Single/Multiple Answer Question 風格，
 
-   - **Answer:** It allows converting capital expenses to operating expenses.
-   - **Explanation:** This concept is emphasized as a key economic advantage of cloud computing on page 34, as it enables businesses to redirect capital to core investments.
+以 LEC3-CloudEconomics.pdf 的内容出 Single Choice Question 20 題，不可重复，並給出答案和解釋，例如在哪一頁，為什麼這將是考試的重點，in English
 
-2. **Question 2:** What is "Statistical Multiplexing" in the context of cloud economics?
+# Answer (GPT-4 Omni):
 
-   - **Answer:** It is the process of combining multiple workloads to increase server utilization.
-   - **Explanation:** Discussed on page 3, statistical multiplexing is crucial for optimizing resource use in cloud environments.
+以下是基於**LEC3-CloudEconomics.pdf**內容設計的 20 道單選題，並附上答案和解釋。
 
-3. **Question 3:** How does "elasticity" benefit cloud users?
+## 單選題
 
-   - **Answer:** It allows scaling resources up or down based on demand.
-   - **Explanation:** Elasticity is a fundamental characteristic of cloud computing, allowing efficient resource management, as mentioned on page 26.
+1. **What is a key economic benefit of cloud computing for businesses?**
 
-4. **Question 4:** What challenge does "data transfer bottlenecks" present in cloud computing?
+   - A) High initial capital expenditure
+   - B) Pay-as-you-go pricing model
+   - C) Long-term contracts
+   - D) Fixed resource allocation
 
-   - **Answer:** It can lead to delayed data processing and increased costs.
-   - **Explanation:** Page 50 highlights this issue as a significant obstacle in managing large-scale data transfers efficiently.
+   **Answer: B**
 
-5. **Question 5:** What does "dynamic resource scheduling" aim to achieve?
+   **Explanation:** The pay-as-you-go pricing model allows businesses to convert capital expenses into operating expenses, which is a significant economic benefit of cloud computing (Page 32)[1].
 
-   - **Answer:** It seeks to improve server utilization by adjusting resources based on current needs.
-   - **Explanation:** This concept, found on page 3, is vital for maintaining efficient operations in cloud environments.
+2. **Which factor contributes to the elasticity of cloud computing?**
 
-6. **Question 6:** Why is "provisioning for peak demand" often inefficient in traditional IT setups?
+   - A) Static resource allocation
+   - B) Overprovisioning
+   - C) Statistical multiplexing
+   - D) Manual scaling
 
-   - **Answer:** It results in resource wastage during non-peak times.
-   - **Explanation:** Page 26 explains how elasticity in cloud computing mitigates this inefficiency by allowing dynamic scaling.
+   **Answer: C**
 
-7. **Question 7:** What role does "virtualization" play in cloud computing?
+   **Explanation:** Elasticity in cloud computing is achieved through statistical multiplexing, which allows dynamic resource allocation based on demand (Page 33)[1].
 
-   - **Answer:** It hides the implementation details of multiplexing and supports resource optimization.
-   - **Explanation:** Virtualization is discussed on page 33 as a key technology enabling cloud services.
+3. **Why might established companies like Amazon find value in cloud elasticity?**
 
-8. **Question 8:** How does "cloud cost models" impact business decisions?
+   - A) To reduce server costs permanently
+   - B) To handle unpredictable peak loads efficiently
+   - C) To eliminate all IT staff
+   - D) To avoid all operational costs
 
-   - **Answer:** They provide insights into cost-saving opportunities through efficient resource use.
-   - **Explanation:** Understanding cost models is crucial for businesses to leverage cloud benefits, as noted on page 34.
+   **Answer: B**
 
-9. **Question 9:** What is a major obstacle related to "software licensing" in the cloud?
+   **Explanation:** Cloud elasticity allows companies to handle unpredictable peak loads efficiently, which is crucial during events like Black Friday (Page 31)[1].
 
-   - **Answer:** Licensing restrictions that limit software deployment flexibility.
-   - **Explanation:** Page 57 addresses how traditional licensing models can hinder cloud adoption.
+4. **What risk is transferred from the service provider to the cloud vendor with elasticity?**
 
-10. **Question 10:** What is the significance of "economies of scale" for cloud providers?
+   - A) Security risks
+   - B) Risk of data loss
+   - C) Risk of workload mis-estimation
+   - D) Risk of hardware failure
 
-    - **Answer:** It reduces costs through large-scale data center operations and bulk purchasing.
-    - **Explanation:** Economies of scale are essential for competitive pricing and efficiency, as discussed on page 70.
+   **Answer: C**
 
-11. **Question 11:** What does "utility computing" offer to users?
+   **Explanation:** The risk of mis-estimating workload demands is transferred to the cloud vendor, who may charge a premium for this risk (Page 31)[1].
 
-    - **Answer:** Access to IT resources on an as-needed basis with pay-as-you-go pricing.
-    - **Explanation:** This model is highlighted on page 59 as a core aspect of cloud services.
+5. **What is a primary reason for using cloud computing in seasonal businesses?**
 
-12. **Question 12:** How does "data confidentiality" pose a challenge in the cloud?
+   - A) Fixed pricing models
+   - B) Dynamic resource provisioning
+   - C) Long-term stability
+   - D) High initial setup costs
 
-    - **Answer:** Concerns about security and compliance with data protection laws.
-    - **Explanation:** Page 49 discusses these challenges and their impact on cloud adoption.
+   **Answer: B**
 
-13. **Question 13:** What is "serverless computing" also known as?
+   **Explanation:** Seasonal businesses benefit from dynamic resource provisioning, which allows them to adjust resources according to demand fluctuations (Page 30)[1].
 
-    - **Answer:** Function as a Service (FaaS).
-    - **Explanation:** Page 55 introduces serverless computing as an emerging trend in the cloud landscape.
+6. **Which model is used to generalize cloud economics?**
 
-14. **Question 14:** Why might established companies benefit from cloud elasticity?
+   - A) Fixed cost model
+   - B) Usage-based pricing model
+   - C) Subscription model
+   - D) Flat-rate pricing model
 
-    - **Answer:** It helps manage unpredictable workloads without over-provisioning.
-    - **Explanation:** Page 31 explains how elasticity supports both startups and established firms.
+   **Answer: B**
 
-15. **Question 15:** What is one advantage of using "machine learning" in cloud platforms?
+   **Explanation:** Cloud economics are generalized using a usage-based pricing model where customers pay proportional to the resources used (Page 34)[1].
 
-    - **Answer:** It enables predictive management for resource allocation.
-    - **Explanation:** Page 67 discusses how ML can optimize performance and efficiency in clouds.
+7. **How does cloud computing affect capital expenses for businesses?**
 
-16. **Question 16:** How do "cloud value propositions" attract businesses?
+   - A) Increases capital expenses significantly
+   - B) Converts capital expenses into operating expenses
+   - C) Eliminates all expenses related to IT infrastructure
+   - D) Has no impact on capital expenses
 
-    - **Answer:** By offering reliable and scalable IT resources with flexible pricing models.
-    - **Explanation:** These propositions are detailed on page 59, emphasizing their appeal to enterprises.
+   **Answer: B**
 
-17. **Question 17:** What does "over-provisioning" risk lead to in traditional setups?
+   **Explanation:** Cloud computing converts capital expenses into operating expenses, allowing businesses to redirect funds to core investments (Page 32)[1].
 
-    - **Answer:** Increased costs due to unused resources.
-    - **Explanation:** Page 32 highlights this risk and how clouds mitigate it through elasticity.
+8. **What is an example of a successful cloud service mentioned in the document?**
 
-18. **Question 18:** Why are "cloud APIs" considered proprietary challenges?
+   - A) Microsoft Office Suite
+   - B) Amazon EC2 and S3
+   - C) Google Search Engine
+   - D) IBM Mainframe Services
 
-    - **Answer:** They limit interoperability and lock-in customers to specific providers.
-    - **Explanation:** Discussed on page 48, proprietary APIs pose significant integration challenges.
+   **Answer: B**
 
-19. **Question 19:** How does "multi-cloud computing" enhance service availability?
+   **Explanation:** Amazon's EC2 and S3 services are highlighted as successful examples of cloud services (Page 35)[1].
 
-    - **Answer:** By distributing workloads across multiple providers to avoid single points of failure.
-    - **Explanation:** Multi-cloud strategies are mentioned on page 47 as solutions for high availability demands.
+9. **Why might a business choose not to move its operations to the cloud despite potential benefits?**
 
-20. **Question 20:** What does the term "knee point" refer to in scaling strategies?
-    - **Answer:** The transition point where horizontal scaling becomes more economical than vertical scaling.
-    - **Explanation:** This concept is explained on page 3 as part of optimal scaling strategies.
+   - A) High data transfer times and costs
+   - B) Lack of scalability options in the cloud
+   - C) Inability to access data remotely
+   - D) Limited availability of virtual machines
+
+   **Answer: A**
+
+   **Explanation:** High data transfer times and costs can deter businesses from moving operations to the cloud, as illustrated by the biology lab example (Page 37)[1].
+
+10. **What is a potential disadvantage of under-provisioning in cloud computing?**
+
+    - A) Excessive resource wastage during peak times
+    - B) Turning away excess users and losing potential revenue
+    - C) Increased operational costs due to overuse of resources
+    - D) Inability to scale down resources when needed
+
+    **Answer: B**
+
+    **Explanation:** Under-provisioning can lead to turning away excess users, resulting in lost potential revenue and possibly damaging customer relationships (Page 28)[1].
+
+11. **What is a common method used by cloud vendors to manage risk associated with workload estimation?**
+
+    - A) Offering fixed-rate plans only
+    - B) Charging a premium for assumed risks
+    - C) Providing unlimited resources at no extra cost
+    - D) Requiring long-term contracts
+
+    **Answer: B**
+
+    **Explanation:** Cloud vendors often charge a premium for taking on the risk associated with workload estimation errors (Page 31)[1].
+
+12. **Which business model transformation does cloud computing facilitate according to the document?**
+
+    - A) From service-oriented architecture to monolithic applications
+    - B) From capital expense-based models to operating expense-based models
+    - C) From decentralized IT management to centralized control
+    - D) From flexible pricing models to fixed pricing models
+
+    **Answer: B**
+
+    **Explanation:** Cloud computing facilitates the transformation from capital expense-based models to operating expense-based models, providing financial flexibility (Page 32)[1].
+
+13. **How does statistical multiplexing contribute to cost savings in cloud environments?**
+
+    - A) By ensuring fixed resource allocation
+    - B) By dynamically allocating resources based on demand
+    - C) By eliminating the need for data centers
+    - D) By reducing network bandwidth usage
+
+    **Answer: B**
+
+    **Explanation:** Statistical multiplexing allows for dynamic resource allocation based on current demand, leading to cost savings by optimizing resource use (Page 33)[1].
+
+14. **Which type of demand variation can be effectively managed by using cloud services?**
+
+    - A) Constant demand
+    - B) Seasonal or periodic demand variations
+    - C) Predictable low demand only
+    - D) Unchanging high demand
+
+    **Answer: B**
+
+    **Explanation:** Cloud services are particularly effective in managing seasonal or periodic demand variations due to their elasticity and scalability features (Page 27)[1].
+
+15. **What is one reason why some companies may prefer private data centers over public clouds?**
+    – A）Lower initial setup costs
+    – B）Higher control over security and compliance
+    – C）Unlimited scalability options
+    – D）Guaranteed lower operational costs
+
+    **Answer：B**
+
+    **Explanation：** Some companies may prefer private data centers because they offer higher control over security and compliance compared to public clouds（Page 36）[1]。
+
+16.**在雲計算中，為什麼資源虛擬化是重要的？**
+
+- A）它增加了硬體成本
+- B）它允許動態資源配置
+- C）它限制了資源的使用
+- D）它需要長期合同
+
+**答案：B**
+
+**解釋：** 資源虛擬化允許動態資源配置，是雲計算實現彈性的基礎（第 33 頁）[1]。
+
+17.**哪一個是雲計算經濟學的一般模型假設之一？**
+
+- A）客戶按固定費率支付
+- B）客戶支付與使用的時間和資源成比例的費用
+- C）所有客戶都以相同的速度使用資源
+- D）硬體成本保持不變
+
+**答案：B**
+
+**解釋：** 雲計算經濟學的一般模型假設客戶支付與使用的時間和資源成比例的費用（第 34 頁）[1]。
+
+18.**在雲計算中，什麼是“無需提前規劃資源配置”的好處？**
+
+- A）減少資源浪費
+- B）提高初始設置成本
+- C）限制應用程序的可用性
+- D）增加管理複雜性
+
+**答案：A**
+
+**解釋：** 無需提前規劃資源配置可以減少資源浪費，因為可以根據需求動態調整資源（第 34 頁）[1]。
+
+19.**哪一個是使用公共雲進行效用計算的優勢？**
+
+- A）固定成本結構
+- B）無限容量錯覺
+- C）需要長期承諾
+- D）缺乏靈活性
+
+**答案：B**
+
+**解釋：** 公共雲提供無限容量的錯覺，使企業無需提前規劃資源配置（第 34 頁）[1]。
+
+20.**為什麼一些企業可能選擇不將其服務遷移到雲端？**
+
+- A）雲端提供更高的安全性
+- B）數據傳輸時間和成本高昂
+- C）雲端提供更高的靈活性
+- D）所有企業都應該遷移到雲端
+
+**答案：B**
+
+**解釋：** 一些企業可能因數據傳輸時間和成本高昂而選擇不將其服務遷移到雲端（第 37 頁）[1]。
+
+# Citations:
+
+[1] [LEC3-CloudEconomics.pdf](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_73f844c9-478d-48c2-80b8-1b25d582a5ee/cd477544-f916-4795-abf0-69414fa051f6/LEC3-CloudEconomics.pdf)  
+[2] [LEC5-CloudPlatformArchitecture.pdf](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_73f844c9-478d-48c2-80b8-1b25d582a5ee/67654789-24fd-42cb-94bf-3896cf615a5a/LEC5-CloudPlatformArchitecture.pdf)  
+[3] [LEC2-CloudEnablingTechnologies.pdf](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_73f844c9-478d-48c2-80b8-1b25d582a5ee/be898d4f-4994-4bd6-9747-f844c3e8d6d0/LEC2-CloudEnablingTechnologies.pdf)  
+[4] [LEC1-IntroCloudComputing.pdf](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_73f844c9-478d-48c2-80b8-1b25d582a5ee/2cfe9687-f948-4568-96df-2f3897089c54/LEC1-IntroCloudComputing.pdf)  
+[5] [LEC4-ClustersVirtualization.pdf](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_73f844c9-478d-48c2-80b8-1b25d582a5ee/96496c02-8b17-4d32-a3dc-c77d5f359671/LEC4-ClustersVirtualization.pdf)
 
 ## 多選題 (Multiple Answer Questions)
 
